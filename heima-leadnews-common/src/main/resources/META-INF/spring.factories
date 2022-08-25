@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.heima.common.exception.ExceptionCatch,\
+  com.heima.common.exception.aliyun.GreenImageScan,\
+  com.heima.common.exception.aliyun.GreenTextScan,\
+  com.heima.common.exception.tess4j.Tess4jClient,\
+  com.heima.common.exception.redis.CacheService
